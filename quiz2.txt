@@ -1,0 +1,17 @@
+1. Kurallarına uygun şekilde dosya oluşturma(5p)
+2. Başlık etiketleri kullanımı(5p)
+3. Metin biçimlendirme etiketlerinin(tablodakiler de dahil) kullanımı(6*5p)
+4. Yatay çizgilerin doğru eklenmesi(5p)
+5. Liste etiketleri(5*5p)
+	4.1 İç içe liste oluşturma
+	4.2 Front-end-Back-end Yazılım Geliştirme kalın yapılması
+	4.3 Sırasız listenin madde işareti olmadan oluşturulması
+	4.4 Ters sıralı liste oluşturma
+	4.5 Roma rakamlarıyla liste oluşturma
+6. Tablonun uygun şekilde eklenmesi
+	6.1 Tablo açıklamasının eklenmesi(5p)
+	6.2 Hücrelerin doğru şekilde birleştirilmesi(10p)
+	6.3 tablo başlık hücrelerinin eklenmesi(10p)
+	6.4 Tablo kenarlığının eklenmesi(5p)
+
+Not: w3.validator'de bulunan her hata -10 puan
