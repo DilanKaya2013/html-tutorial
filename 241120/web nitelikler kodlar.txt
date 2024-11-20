@@ -1,0 +1,49 @@
+ <h1>Form Uygulama Örnegi</h1>
+
+    <form action="https:/yazilimbilisim.net/ogrenciler/kontrol.php"method="post">
+
+        <label for="ad">adi:</label>
+         <input type="text" placeholder="adınızı Girin" size="20" maxlength="20"  id="ad" name="ad" required><br><br>
+
+         <label for="soyad">soyadi:</label>
+         <input type="text" placeholder="soyadınızı Girin" id="soyad" name="soyad" required><br><br>
+          
+         <label for="dogum tarihi">dogum tarihi:</label>
+         <input type="datetime" value="2015-06-20"  min="2000-01-01" max="2024-01-01" id="dogum tarihi" name="dogum tarihi"><br><br>
+        
+         <label for="sifreniz">sifreniz:</label>
+         <input type="password" placeholder="sifreniz" minlength="8" maxlength="16" name="sifreniz" required><br><br>
+
+         <label for="maasiniz">maasiniz:</label>
+         <input type="number" min="5000" max="100000" step="500" id="maasiniz" name="maasiniz"><br><br>
+
+         <label for="Epostaniz">Epostaniz:</label>
+         <input type="email" placeholder="kişi@Epostaniz.com" autocomplete="email" id="Epostaniz" name="Epostaniz"><br><br>
+
+         <label for="Hobiniz">Hobiniz:</label>
+         <input type="text" list="hobiler" id="Hobiniz" name="Hobiler"><br><br>
+         <datalist id="hobiler">
+            <option value="uyumak"></option>
+            <option value="sarkı dinlemek"></option>
+            <option value="yemek yemek"></option>
+             <option value="bilgisiyar oyunu oynamak"></option>
+         </datalist>
+        
+         <label for="Kullanici Adiniz">Kullanici Adiniz:</label>
+         <input type="text" value="balikdori" readonly id="Kullanici Adiniz" name="Kullanici Adiniz"><br><br>
+
+         <label for="Kredi Notu">Kredi Notu:</label>
+         <input type="text" disabled value="70" id="Kredi Notu" name="Kredi Notu"><br><br>
+
+         <label for="özgeçmiş">ozgecmis:</label>
+         <input type="text" id="özgeçmiş" name="özgeçmiş"><br><br>
+
+         <label for="dosya">dosya:</label>
+         <input type="required" multiple  id="dosya" name="dosya"><br><br>
+
+         <button type="submit">Kaydet</button>
+         <button type="reset"> Temizle</button>
+
+    </form>
+
+    
